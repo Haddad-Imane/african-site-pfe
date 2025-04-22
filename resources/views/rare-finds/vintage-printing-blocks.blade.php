@@ -1,4 +1,4 @@
-<!-- resources/views/rare-finds/wax-batik-products.blade.php -->
+<!-- resources/views/rare-finds/vintage-printing-blocks.blade.php -->
 
 @extends('layouts.app')
 
@@ -76,112 +76,113 @@
 
 @include('partials.navbar')
 
-<h1 class="text-center my-5" style="color: #D35400;">Our African Wax Batik Products</h1>
+<h1 class="text-center my-5" style="color: #D35400;">Vintage Printing Blocks</h1>
 
 <!-- Description -->
 <div class="row justify-content-center mb-5">
     <div class="col-md-8">
-        <p class="text-center" style="font-size: 18px; line-height: 1.5;">
-            Explore our exclusive collection of African Wax Batik fabrics, each piece uniquely crafted to showcase vibrant colors and intricate designs. Perfect for fashion, home decor, and more.
+        <p class="text-center">
+            Discover our exclusive collection of vintage printing blocks, unique pieces that tell the story of traditional craftsmanship. Each block is carefully selected for its timeless design and authentic charm.
         </p>
     </div>
 </div>
 
-<!-- List of Products -->
+<!-- List of Blocks -->
 <div class="row">
-    <!-- Product 1 -->
+    <!-- Block 1 -->
     <div class="col-md-3 mb-4">
         <div class="product">
-            <img src="{{ asset('images/img1.jpg') }}" alt="African Fabric Wax Batik #2044">
-            <h4>African Fabric Wax Batik #2044</h4>
+            <img src="{{ asset('images/ra8.jpg') }}" alt="Vintage Printing Block #1" class="img-fluid">
+            <h4>Vintage Printing Block #1</h4>
             <div class="price-button">
-                <p>Price: 299.00 DH</p>
+                <p>Price: 150.00 DH</p>
                 <button>Add to Cart</button>
             </div>
         </div>
     </div>
 
-    <!-- Product 2 -->
+    <!-- Block 2 -->
     <div class="col-md-3 mb-4">
         <div class="product">
-            <img src="{{ asset('images/img2.jpg') }}" alt="African Fabric Wax Batik #2045">
-            <h4>African Fabric Wax Batik #2045</h4>
+            <img src="{{ asset('images/ra7.jpg') }}" alt="Vintage Printing Block #2" class="img-fluid">
+            <h4>Vintage Printing Block #2</h4>
             <div class="price-button">
-                <p>Price: 399.00 DH</p>
+                <p>Price: 200.00 DH</p>
                 <button>Add to Cart</button>
             </div>
         </div>
     </div>
 
-    <!-- Product 3 -->
+    <!-- Block 3 -->
     <div class="col-md-3 mb-4">
         <div class="product">
-            <img src="{{ asset('images/img3.jpg') }}" alt="African Fabric Wax Batik #2041">
-            <h4>African Fabric Wax Batik #2041</h4>
+            <img src="{{ asset('images/ra6.jpg') }}" alt="Vintage Printing Block #3" class="img-fluid">
+            <h4>Vintage Printing Block #3</h4>
             <div class="price-button">
-                <p>Price: 299.00 DH</p>
+                <p>Price: 180.00 DH</p>
                 <button>Add to Cart</button>
             </div>
         </div>
     </div>
 
-    <!-- Product 4 -->
+    <!-- Block 4 -->
     <div class="col-md-3 mb-4">
         <div class="product">
-            <img src="{{ asset('images/img4.jpg') }}" alt="African Fabric Wax Batik #2043">
-            <h4>African Fabric Wax Batik #2043</h4>
+            <img src="{{ asset('images/ra4.jpg') }}" alt="Vintage Printing Block #4" class="img-fluid">
+            <h4>Vintage Printing Block #4</h4>
             <div class="price-button">
-                <p>Price: 359.00 DH</p>
+                <p>Price: 220.00 DH</p>
                 <button>Add to Cart</button>
             </div>
         </div>
     </div>
 
-    <!-- Product 5 -->
+    <!-- Block 5 -->
     <div class="col-md-3 mb-4">
         <div class="product">
-            <img src="{{ asset('images/img5.jpg') }}" alt="African Fabric Wax Batik #2040">
-            <h4>African Fabric Wax Batik #2040</h4>
+            <img src="{{ asset('images/ra4.jpg') }}" alt="Vintage Printing Block #5" class="img-fluid">
+            <h4>Vintage Printing Block #5</h4>
             <div class="price-button">
-                <p>Price: 499.00 DH</p>
+                <p>Price: 190.00 DH</p>
                 <button>Add to Cart</button>
             </div>
         </div>
     </div>
 
-    <!-- Product 6 -->
+    <!-- Block 6 -->
     <div class="col-md-3 mb-4">
         <div class="product">
-            <img src="{{ asset('images/img6.jpg') }}" alt="African Fabric Wax Batik #2039">
-            <h4>African Fabric Wax Batik #2039</h4>
+            <img src="{{ asset('images/ra3.jpg') }}" alt="Vintage Printing Block #6" class="img-fluid">
+            <h4>Vintage Printing Block #6</h4>
             <div class="price-button">
-                <p>Price: 599.00 DH</p>
+                <p>Price: 210.00 DH</p>
                 <button>Add to Cart</button>
             </div>
         </div>
     </div>
 
+    <!-- Block 7 -->
     <div class="col-md-3 mb-4">
         <div class="product">
-            <img src="{{ asset('images/img7.jpg') }}" alt="African Fabric Wax Batik #2039">
-            <h4>African Fabric Wax Batik #2039</h4>
+            <img src="{{ asset('images/ra1.jpg') }}" alt="Vintage Printing Block #7" class="img-fluid">
+            <h4>Vintage Printing Block #7</h4>
             <div class="price-button">
-                <p>Price: 599.00 DH</p>
+                <p>Price: 170.00 DH</p>
                 <button>Add to Cart</button>
             </div>
         </div>
     </div>
 
+    <!-- Block 8 -->
     <div class="col-md-3 mb-4">
         <div class="product">
-            <img src="{{ asset('images/img8.jpg') }}" alt="African Fabric Wax Batik #2039">
-            <h4>African Fabric Wax Batik #2039</h4>
+            <img src="{{ asset('images/ra2.jpg') }}" alt="Vintage Printing Block #8" class="img-fluid">
+            <h4>Vintage Printing Block #8</h4>
             <div class="price-button">
-                <p>Price: 599.00 DH</p>
+                <p>Price: 240.00 DH</p>
                 <button>Add to Cart</button>
             </div>
         </div>
     </div>
-
-    <!-- Product 7 -->
-   
+</div>
+@endsection

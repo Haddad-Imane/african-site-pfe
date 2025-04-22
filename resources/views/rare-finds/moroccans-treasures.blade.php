@@ -1,4 +1,4 @@
-<!-- resources/views/rare-finds/wax-batik-products.blade.php -->
+<!-- resources/views/rare-finds/moroccan-treasures.blade.php -->
 
 @extends('layouts.app')
 
@@ -54,7 +54,7 @@
     }
 
     .price-button p {
-        font-size: 16px;
+        font-size: 20px;
         color: #333;
         margin: 0;
     }
@@ -76,112 +76,113 @@
 
 @include('partials.navbar')
 
-<h1 class="text-center my-5" style="color: #D35400;">Our African Wax Batik Products</h1>
+<h1 class="text-center my-5" style="color: #D35400;">Moroccan Treasures</h1>
 
 <!-- Description -->
 <div class="row justify-content-center mb-5">
     <div class="col-md-8">
-        <p class="text-center" style="font-size: 18px; line-height: 1.5;">
-            Explore our exclusive collection of African Wax Batik fabrics, each piece uniquely crafted to showcase vibrant colors and intricate designs. Perfect for fashion, home decor, and more.
+        <p class="text-center" style="font-size: 20px; line-height: 1.6;">
+            Discover our exclusive collection of Moroccan treasures, unique pieces that tell the rich and colorful story of our culture. Each treasure is carefully selected for its beauty and authenticity.
         </p>
     </div>
 </div>
 
-<!-- List of Products -->
+<!-- List of Treasures -->
 <div class="row">
-    <!-- Product 1 -->
+    <!-- Treasure 1 -->
     <div class="col-md-3 mb-4">
         <div class="product">
-            <img src="{{ asset('images/img1.jpg') }}" alt="African Fabric Wax Batik #2044">
-            <h4>African Fabric Wax Batik #2044</h4>
+            <img src="{{ asset('images/t1.jpg') }}" alt="Moroccan Treasure #1" class="img-fluid">
+            <h4>Moroccan Treasure #1</h4>
             <div class="price-button">
-                <p>Price: 299.00 DH</p>
+                <p>Price: 150.00 DH</p>
                 <button>Add to Cart</button>
             </div>
         </div>
     </div>
 
-    <!-- Product 2 -->
+    <!-- Treasure 2 -->
     <div class="col-md-3 mb-4">
         <div class="product">
-            <img src="{{ asset('images/img2.jpg') }}" alt="African Fabric Wax Batik #2045">
-            <h4>African Fabric Wax Batik #2045</h4>
+            <img src="{{ asset('images/t2.jpg') }}" alt="Moroccan Treasure #2" class="img-fluid">
+            <h4>Moroccan Treasure #2</h4>
             <div class="price-button">
-                <p>Price: 399.00 DH</p>
+                <p>Price: 200.00 DH</p>
                 <button>Add to Cart</button>
             </div>
         </div>
     </div>
 
-    <!-- Product 3 -->
+    <!-- Treasure 3 -->
     <div class="col-md-3 mb-4">
         <div class="product">
-            <img src="{{ asset('images/img3.jpg') }}" alt="African Fabric Wax Batik #2041">
-            <h4>African Fabric Wax Batik #2041</h4>
+            <img src="{{ asset('images/t3.jpg') }}" alt="Moroccan Treasure #3" class="img-fluid">
+            <h4>Moroccan Treasure #3</h4>
             <div class="price-button">
-                <p>Price: 299.00 DH</p>
+                <p>Price: 180.00 DH</p>
                 <button>Add to Cart</button>
             </div>
         </div>
     </div>
 
-    <!-- Product 4 -->
+    <!-- Treasure 4 -->
     <div class="col-md-3 mb-4">
         <div class="product">
-            <img src="{{ asset('images/img4.jpg') }}" alt="African Fabric Wax Batik #2043">
-            <h4>African Fabric Wax Batik #2043</h4>
+            <img src="{{ asset('images/t4.jpg') }}" alt="Moroccan Treasure #4" class="img-fluid">
+            <h4>Moroccan Treasure #4</h4>
             <div class="price-button">
-                <p>Price: 359.00 DH</p>
+                <p>Price: 220.00 DH</p>
                 <button>Add to Cart</button>
             </div>
         </div>
     </div>
 
-    <!-- Product 5 -->
+    <!-- Treasure 5 -->
     <div class="col-md-3 mb-4">
         <div class="product">
-            <img src="{{ asset('images/img5.jpg') }}" alt="African Fabric Wax Batik #2040">
-            <h4>African Fabric Wax Batik #2040</h4>
+            <img src="{{ asset('images/t5.jpg') }}" alt="Moroccan Treasure #5" class="img-fluid">
+            <h4>Moroccan Treasure #5</h4>
             <div class="price-button">
-                <p>Price: 499.00 DH</p>
+                <p>Price: 190.00 DH</p>
                 <button>Add to Cart</button>
             </div>
         </div>
     </div>
 
-    <!-- Product 6 -->
+    <!-- Treasure 6 -->
     <div class="col-md-3 mb-4">
         <div class="product">
-            <img src="{{ asset('images/img6.jpg') }}" alt="African Fabric Wax Batik #2039">
-            <h4>African Fabric Wax Batik #2039</h4>
+            <img src="{{ asset('images/t6.jpg') }}" alt="Moroccan Treasure #6" class="img-fluid">
+            <h4>Moroccan Treasure #6</h4>
             <div class="price-button">
-                <p>Price: 599.00 DH</p>
+                <p>Price: 210.00 DH</p>
                 <button>Add to Cart</button>
             </div>
         </div>
     </div>
 
+    <!-- Treasure 7 -->
     <div class="col-md-3 mb-4">
         <div class="product">
-            <img src="{{ asset('images/img7.jpg') }}" alt="African Fabric Wax Batik #2039">
-            <h4>African Fabric Wax Batik #2039</h4>
+            <img src="{{ asset('images/moroccan7.jpg') }}" alt="Moroccan Treasure #7" class="img-fluid">
+            <h4>Moroccan Treasure #7</h4>
             <div class="price-button">
-                <p>Price: 599.00 DH</p>
+                <p>Price: 170.00 DH</p>
                 <button>Add to Cart</button>
             </div>
         </div>
     </div>
 
+    <!-- Treasure 8 -->
     <div class="col-md-3 mb-4">
         <div class="product">
-            <img src="{{ asset('images/img8.jpg') }}" alt="African Fabric Wax Batik #2039">
-            <h4>African Fabric Wax Batik #2039</h4>
+            <img src="{{ asset('images/moroccan8.jpg') }}" alt="Moroccan Treasure #8" class="img-fluid">
+            <h4>Moroccan Treasure #8</h4>
             <div class="price-button">
-                <p>Price: 599.00 DH</p>
+                <p>Price: 240.00 DH</p>
                 <button>Add to Cart</button>
             </div>
         </div>
     </div>
-
-    <!-- Product 7 -->
-   
+</div>
+@endsection

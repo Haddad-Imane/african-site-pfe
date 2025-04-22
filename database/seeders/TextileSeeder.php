@@ -1,41 +1,39 @@
 <?php
+// database/seeders/TextileSeeder.php
 
 namespace Database\Seeders;
 
-use Illuminate\Database\Seeder;
 use App\Models\Textile;
+use Illuminate\Database\Seeder;
 
 class TextileSeeder extends Seeder
 {
-    /**
-     * Run the database seeds.
-     *
-     * @return void
-     */
     public function run()
     {
-        // Seed the first textile
         Textile::create([
-            'nom' => 'African Fabric Wax Batik #2044',
-            'categorie' => 'african_fabric',
-            'image' => 'https://media.istockphoto.com/id/483232645/photo/african-fabrics-from-ghana-west-africa.jpg?s=612x612&w=0&k=20&c=mTjDHhoKKbQ1r2RvujFLHNM9MZssIZMja5SLMI9MuCE=.jpg',
-            'prix' => 112.00,
+            'name' => 'MORROCAN CARPET #19G',
+            'code' => '19G',
+            'description' => 'For centuries, Moroccan artisans have crafted exquisite carpets that blend tradition and artistry.',
+            'price' => 1099.99,
+            'categorie' => 'moroccan_carpet',
         ]);
 
-        // Seed the second textile
         Textile::create([
-            'nom' => 'African Fabric Wax Batik #2045',
-            'categorie' => 'african_fabric',
-            'image' => 'african_fabric_2045.jpg',
-            'prix' => 112.00,
+            'name' => 'MORROCAN CLOTH #VEE',
+            'code' => 'VEE',
+            'description' => 'Traditional Moroccan cloth with intricate patterns.',
+            'price' => 1049.99,
+            'categorie' => 'moroccan_cloth',
         ]);
 
-        // Add more textiles as needed
-         Textile::create([
-            'nom' => 'Another Textile',
-            'categorie' => 'another_category',
-            'image' => 'another_image.jpg',
-             'prix' => 99.99,
-         ]);
+        Textile::create([
+            'name' => 'AFRICAN FABRIC #KNT',
+            'code' => 'KNT',
+            'description' => 'Vibrant African fabric with unique designs.',
+            'price' => 1029.99,
+            'categorie' => 'african_fabric',
+        ]);
+
+        // Ajoutez plus de textiles si nécessaire
     }
 }
